@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_dashboardActive</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Dashboard---Configure" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-20.000000, -105.000000)">
+        <g id="ic_dashboardActive" transform="translate(20.000000, 105.000000)">
+            <circle id="Oval-2" fill="#27BCBD" cx="20" cy="20" r="20"></circle>
+            <g id="ic_dashboard" transform="translate(10.833333, 10.833333)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M6.54761905,18.3333333 L17.0238095,18.3333333 C17.7440476,18.3333333 18.3333333,17.7440476 18.3333333,17.0238095 L18.3333333,6.54761905 L6.54761905,6.54761905 L6.54761905,18.3333333 Z M17.0238095,0 L1.30952381,0 C0.589285714,0 0,0.589285714 0,1.30952381 L0,5.23809524 L18.3333333,5.23809524 L18.3333333,1.30952381 C18.3333333,0.589285714 17.7440476,0 17.0238095,0 Z M0,17.0238095 C0,17.7440476 0.589285714,18.3333333 1.30952381,18.3333333 L5.23809524,18.3333333 L5.23809524,6.54761905 L0,6.54761905 L0,17.0238095 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

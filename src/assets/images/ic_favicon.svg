@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="610px" height="523px" viewBox="0 0 610 523" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Application-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_app" transform="translate(-179.000000, -218.000000)" stroke="#27BCBD">
+            <g id="Group">
+                <g id="Icon">
+                    <g id="iOS4-Copy">
+                        <g id="Group-3" transform="translate(187.000000, 250.000000)">
+                            <path d="M334.529663,462.173491 C315.819318,477.447138 290.906591,478.992412 270.804667,465.980753 C251.732324,453.635525 240.402405,430.409408 240.740706,405.685664 L240.740706,53.226131 C240.402405,28.502387 251.732324,5.27626985 270.804667,-7.06895793 C290.904161,-20.0790444 315.813296,-18.535716 334.522879,-3.26723205 L560.612887,173.175768 L560.799802,173.330997 C576.660684,186.503091 585.781055,207.615527 585.620127,229.83751 C585.459078,252.076358 576.01974,273.027533 559.93697,285.893258 L559.798619,286.002689 L334.529663,462.173491 Z" id="Path" stroke-width="32"></path>
+                            <path d="M188.466667,358.533333 L86.0666667,358.533333" id="Path-3" stroke-width="16" stroke-linecap="round"></path>
+                            <path d="M188.466667,426.8 L51.9333333,426.8" id="Path-3" stroke-width="16" stroke-linecap="round"></path>
+                            <path d="M0.733333333,426.8 L17.8,426.8" id="Path-3-Copy" stroke-width="16" stroke-linecap="round"></path>
+                            <path d="M137.266667,290.266667 L188.466667,290.266667" id="Path-3-Copy" stroke-width="16" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

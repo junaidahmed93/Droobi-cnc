@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_createBooking</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Web-Portal-Wireframe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_createBooking" transform="translate(1.000000, 1.000000)">
+            <circle id="Oval-5-Copy" stroke="#979797" cx="20" cy="20" r="20"></circle>
+            <g id="ic_local_shipping_white_24px" transform="translate(8.000000, 8.000000)">
+                <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M19.5,14.5 L14.5,14.5 L14.5,19.5 C14.5,20.8807119 13.3807119,22 12,22 L12,22 C10.6192881,22 9.5,20.8807119 9.5,19.5 L9.5,14.5 L4.5,14.5 C3.11928813,14.5 2,13.3807119 2,12 L2,12 C2,10.6192881 3.11928813,9.5 4.5,9.5 L9.5,9.5 L9.5,4.5 C9.5,3.11928813 10.6192881,2 12,2 L12,2 C13.3807119,2 14.5,3.11928813 14.5,4.5 L14.5,9.5 L19.5,9.5 C20.8807119,9.5 22,10.6192881 22,12 L22,12 C22,13.3807119 20.8807119,14.5 19.5,14.5 Z" id="Path" fill-opacity="0.5" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="37px" viewBox="0 0 33 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_busyCar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.5,30.8101491 C10.3027778,28.7006087 0.0658730159,18.550323 0.0658730159,12.5756025 C0.0658730159,5.92234783 5.64404762,0.509478261 12.5,0.509478261 C19.3559524,0.509478261 24.934127,5.92234783 24.934127,12.5756025 C24.934127,18.5480124 14.6960317,28.7009938 12.5,30.8101491 Z" id="path-1"></path>
+        <filter x="-24.1%" y="-19.8%" width="148.3%" height="139.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-283.000000, -1067.000000)">
+        <g id="Group-21" transform="translate(104.000000, 913.000000)">
+            <g id="ic_busyCar" transform="translate(183.000000, 157.000000)">
+                <ellipse id="Oval-4" fill-opacity="0.2" fill="#000000" cx="12.5" cy="31" rx="8.5" ry="2"></ellipse>
+                <g id="Group-8">
+                    <g id="ic_frontcarpin">
+                        <g id="Group" transform="translate(2.083333, 2.021739)"></g>
+                        <g id="Shape" fill-rule="nonzero">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#293A4B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="ic_directions_car_white_24px" transform="translate(5.555556, 5.391304)">
+                            <path d="M11.3940329,2.32289402 C11.2654321,1.95013587 10.9053498,1.68478261 10.4809671,1.68478261 L3.40792181,1.68478261 C2.98353909,1.68478261 2.62988683,1.95013587 2.49485597,2.32289402 L1.15740741,6.10733696 L1.15740741,11.1616848 C1.15740741,11.5091712 1.44675926,11.7934783 1.80041152,11.7934783 L2.44341564,11.7934783 C2.7970679,11.7934783 3.08641975,11.5091712 3.08641975,11.1616848 L3.08641975,10.5298913 L10.8024691,10.5298913 L10.8024691,11.1616848 C10.8024691,11.5091712 11.091821,11.7934783 11.4454733,11.7934783 L12.0884774,11.7934783 C12.4421296,11.7934783 12.7314815,11.5091712 12.7314815,11.1616848 L12.7314815,6.10733696 L11.3940329,2.32289402 Z M3.40792181,8.63451087 C2.8742284,8.63451087 2.44341564,8.21120924 2.44341564,7.68682065 C2.44341564,7.16243207 2.8742284,6.73913043 3.40792181,6.73913043 C3.94161523,6.73913043 4.37242798,7.16243207 4.37242798,7.68682065 C4.37242798,8.21120924 3.94161523,8.63451087 3.40792181,8.63451087 Z M10.4809671,8.63451087 C9.94727366,8.63451087 9.51646091,8.21120924 9.51646091,7.68682065 C9.51646091,7.16243207 9.94727366,6.73913043 10.4809671,6.73913043 C11.0146605,6.73913043 11.4454733,7.16243207 11.4454733,7.68682065 C11.4454733,8.21120924 11.0146605,8.63451087 10.4809671,8.63451087 Z M2.44341564,5.47554348 L3.40792181,2.63247283 L10.4809671,2.63247283 L11.4454733,5.47554348 L2.44341564,5.47554348 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            <polygon id="Shape" points="0 0 13.8888889 0 13.8888889 13.4782609 0 13.4782609"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

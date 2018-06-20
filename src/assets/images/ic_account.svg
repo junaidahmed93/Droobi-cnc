@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_account</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Dashboard---Configure" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1262.000000, -18.000000)">
+        <g id="ic_account" transform="translate(1259.000000, 15.000000)">
+            <path d="M20,3.33333333 C10.8,3.33333333 3.33333333,10.8 3.33333333,20 C3.33333333,29.2 10.8,36.6666667 20,36.6666667 C29.2,36.6666667 36.6666667,29.2 36.6666667,20 C36.6666667,10.8 29.2,3.33333333 20,3.33333333 Z M20,8.33333333 C22.7666667,8.33333333 25,10.5666667 25,13.3333333 C25,16.1 22.7666667,18.3333333 20,18.3333333 C17.2333333,18.3333333 15,16.1 15,13.3333333 C15,10.5666667 17.2333333,8.33333333 20,8.33333333 Z M20,32 C15.8333333,32 12.15,29.8666667 10,26.6333333 C10.05,23.3166667 16.6666667,21.5 20,21.5 C23.3166667,21.5 29.95,23.3166667 30,26.6333333 C27.85,29.8666667 24.1666667,32 20,32 Z" id="Shape" fill-opacity="0.5" fill="#000000" fill-rule="nonzero"></path>
+            <polygon id="Shape" points="0 0 40 0 40 40 0 40"></polygon>
+        </g>
+    </g>
+</svg>
