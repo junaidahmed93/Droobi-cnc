@@ -137,7 +137,7 @@ export function logInUser(user) {
       user: {
         id: '123',
         roles: [{ id: '5', roleType: 'admin' }],
-        name: 'Junaid',
+        name: 'Subhan',
         email: 'junaid.ahmed@venturedive.com',
         emiratesId: '0210',
         lastName: 'ahmed',
