@@ -5,7 +5,7 @@ import Validations from '../utils/Validations';
 
 const styles = {
   floatingStyle: {
-    color: '#27BCBD',
+    color: '#0D5BD5',
     fontSize: '18px',
     width: '90%',
   },
@@ -20,7 +20,7 @@ const styles = {
     width: '360px',
   },
   otherText: {
-    color: '#27BCBD',
+    color: '#0D5BD5',
     marginLeft: '150px',
     cursor: 'pointer',
   },
@@ -132,7 +132,7 @@ class Login extends Component {
                 label="CNC Login"
                 onClick={this.handleLogin}
                 style={styles.loginButton}
-                backgroundColor="#27BCBD"
+                backgroundColor="#0D5BD5"
                 labelColor="white"
               />
             </div>

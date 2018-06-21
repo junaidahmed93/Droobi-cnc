@@ -48,81 +48,86 @@ class DashboardContainer extends Component {
     this.onSearchChanged = this.onSearchChanged.bind(this);
     this.nextButton = this.nextButton.bind(this);
     this.previousButton = this.previousButton.bind(this);
-    this.state = {
-      shownRecords: [],
-      storedRecords: [],
-      currentRowCount: 10,
-      selectedindex: 0,
-      startSearch: false,
-      open: false,
-      openDialoge: false,
-      openUpcomingDialoge: false,
-      showSearchbar: false,
-      showFilterBar: false,
-      showTagBar: false,
-      value: '',
-      errorText: '',
-      errorClass: '',
-      showErrorTemplate: false,
-      filteredValues: ['1', '2', '3', '4', '5'],
-      selectedValue: '',
-      ambulanceData: [
-        {
-          userId: 1,
-          location: {
-            lat: 25.287607, lng: 51.5229443,
-          },
-          info: {
-            number: 'PEL - 01921',
-            status: 'job',
-          },
-        },
-        {
-          userId: 2,
-          location: {
-            lat: 25.2845344, lng: 51.5191851,
-          },
-          info: {
-            number: 'Q0L - 50120',
-            status: 'available',
-          },
-        },
-        {
-          userId: 3,
-          location: {
-            lat: 25.279877, lng: 51.5327023,
-          },
-          info: {
-            number: 'PPK - A8795',
-            status: 'available',
-          },
-        },
-        {
-          userId: 4,
-          location: {
-            lat: 25.276869, lng: 51.5260033,
-          },
-          info: {
-            number: 'EEQ - 00125',
-            status: 'job'
-          },
-        },
+    this.storeTime = new Date().getTime() - (60 * 1000),
+      this.storeTimeTen = new Date().getTime() - (10 * 60 * 1000),
+      this.storeTimeFive = new Date().getTime() - (5 * 60 * 1000),
+      this.state = {
 
-      ],
-      local: ['68', '110', '105'],
-      local2: ['68', '110', '105'],
-      values: [
-        'AEL - 012 at Shah Faisal',
-        'PB0 - 8797 at University road',
-        'EEP - 0971 at Tariq road',
-      ],
-      upcomingRequest: [
-        { id: 1, name: 'Faizan', disease: 'Heart', heartRate: '77', location: 'PIDC', requestTime: new Date().toString().slice(16, 24), elaspedTime: '2 min' },
-        { id: 2, name: 'Javed', disease: 'Heat stoke', heartRate: '77', location: 'DHA', requestTime: new Date().toString().slice(16, 24), elaspedTime: '2 min' },
-        { id: 3, name: 'Haris', disease: 'Kidney pain', heartRate: '77', location: 'Shah Faisal', requestTime: new Date().toString().slice(16, 24), elaspedTime: '2 min' },
+        shownRecords: [],
+        storedRecords: [],
+        currentRowCount: 10,
+        selectedindex: 0,
+        startSearch: false,
+        open: false,
+        openDialoge: false,
+        openUpcomingDialoge: false,
+        openInAmbDialoge: false,
+        showSearchbar: false,
+        showFilterBar: false,
+        showTagBar: false,
+        value: '',
+        errorText: '',
+        errorClass: '',
+        showErrorTemplate: false,
+        filteredValues: ['1', '2', '3', '4', '5'],
+        selectedValue: '',
+        ambulanceData: [
+          {
+            userId: 1,
+            location: {
+              lat: 25.287607, lng: 51.5229443,
+            },
+            info: {
+              number: 'PEL - 01921',
+              status: 'job',
+            },
+          },
+          {
+            userId: 2,
+            location: {
+              lat: 25.2845344, lng: 51.5191851,
+            },
+            info: {
+              number: 'Q0L - 50120',
+              status: 'available',
+            },
+          },
+          {
+            userId: 3,
+            location: {
+              lat: 25.279877, lng: 51.5327023,
+            },
+            info: {
+              number: 'PPK - A8795',
+              status: 'available',
+            },
+          },
+          {
+            userId: 4,
+            location: {
+              lat: 25.276869, lng: 51.5260033,
+            },
+            info: {
+              number: 'EEQ - 00125',
+              status: 'job'
+            },
+          },
 
-      ]
-    };
+        ],
+        local: ['68', '110', '105'],
+        local2: ['68', '110', '105'],
+        values: [
+          'AEL - 012 at Shah Faisal',
+          'PB0 - 8797 at University road',
+          'EEP - 0971 at Tariq road',
+        ],
+        upcomingRequest: [
+          { id: 1, name: 'Faizan', disease: 'Heart', heartRate: '77', location: 'PIDC', requestTime: new Date(this.storeTime).toString().slice(16, 24), elaspedTime: `${this.getElasped(this.storeTime)} min` },
+          { id: 3, name: 'Haris', disease: 'Kidney pain', heartRate: '77', location: 'Shah Faisal', requestTime: new Date(this.storeTimeFive).toString().slice(16, 24), elaspedTime: `${this.getElasped(this.storeTimeFive)} min` },
+          { id: 2, name: 'Javed', disease: 'Heat stoke', heartRate: '77', location: 'DHA', requestTime: new Date(this.storeTimeTen).toString().slice(16, 24), elaspedTime: `${this.getElasped(this.storeTimeTen)} min` },
+
+        ]
+      };
     this.searchedRecords = [];
     this.startingNextCount = 0;
     this.currentPageNumber = -1;
@@ -130,6 +135,18 @@ class DashboardContainer extends Component {
     this.interval2 = () => { };
   }
 
+  getElasped = (time) => {
+    var currentTime = new Date().getTime();
+    console.log('time,', time);
+    console.log('currentTime', currentTime);
+
+    var minutes = Math.floor((currentTime - time) / 60000);
+    var seconds = (((currentTime - time) % 60000) / 1000).toFixed(0);
+    return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
+
+
+    // return (currentTime - time);
+  }
 
   componentDidMount() {
     this.props.actions.getAllIncomingPatients();
@@ -261,19 +278,19 @@ class DashboardContainer extends Component {
   }
 
   onClickDialoge = () => {
-    this.setState({ openDialoge: false, openUpcomingDialoge: false });
+    this.setState({ openDialoge: false, openUpcomingDialoge: false, openInAmbDialoge: false });
   }
 
   assignAmbulance = () => {
-    const {upcomingRequest,ambulanceData} = this.state;
+    const { upcomingRequest, ambulanceData } = this.state;
     this.state.upcomingRequest.splice(this.state.selectedIndex, 1);
-    for(let j=0; j<ambulanceData.length; j++) {
-      if(ambulanceData[j].info.status === 'available') {
+    for (let j = 0; j < ambulanceData.length; j++) {
+      if (ambulanceData[j].info.status === 'available') {
         let obj1 = ambulanceData;
         obj1[j].info.status = 'job';
 
-       
-        this.setState({ambulanceData:obj1});
+
+        this.setState({ ambulanceData: obj1 });
         break;
       }
     }
@@ -281,7 +298,6 @@ class DashboardContainer extends Component {
   }
 
   onChange = (object, index, value) => {
-
     this.setState({
       value,
     });
@@ -289,6 +305,10 @@ class DashboardContainer extends Component {
 
   showPatients = () => {
     this.setState({ openUpcomingDialoge: true });
+  }
+
+  showPatientInAmbulance = () => {
+    this.setState({ openInAmbDialoge: true });
   }
 
   render() {
@@ -310,12 +330,19 @@ class DashboardContainer extends Component {
         onClick={() => { this.onClickDialoge(); }}
       />,
     ];
-    const { selectedValue, filteredValues, openUpcomingDialoge, errorText, errorClass, ambulanceData, openDialoge, value, values, upcomingRequest } = this.state;
+    const { selectedValue, filteredValues, openUpcomingDialoge, errorText, errorClass, openInAmbDialoge, ambulanceData, openDialoge, value, values, upcomingRequest } = this.state;
     const rows = upcomingRequest.map((data, i) => (
       <TableRow >
         <TableRowColumn>{data.name}</TableRowColumn>
         <TableRowColumn>{data.disease}</TableRowColumn>
-        <TableRowColumn><span style={{ fontSize: '18px' }}>{this.state.local[i]}</span> bpm  </TableRowColumn>
+        <TableRowColumn>
+          <span
+            style={{
+              fontSize: '18px',
+              color: `${i > 1 ? Number(new Date().getTime().toString().slice(11, 12)) > 4 ? 'red' : 'green' : Number(new Date().getTime().toString().slice(11, 12)) < 4 ? 'red' : 'green'}`
+            }}>{this.state.local[i]}
+          </span> bpm
+          </TableRowColumn>
         <TableRowColumn>{data.location}</TableRowColumn>
         <TableRowColumn>{data.requestTime}</TableRowColumn>
         <TableRowColumn>{data.elaspedTime}</TableRowColumn>
@@ -360,7 +387,7 @@ class DashboardContainer extends Component {
         </Paper>
 
         <Paper style={GlobalStyle.containerPaperStyle} zDepth={0}>
-          <Map ambulanceData={ambulanceData} showPatients={this.showPatients} />
+          <Map ambulanceData={ambulanceData} showPatients={this.showPatients} showPatientInAmbulance={this.showPatientInAmbulance} />
         </Paper>
         <Dialog
           title="Assigning Ambulance"
@@ -460,6 +487,57 @@ class DashboardContainer extends Component {
                   />
                 </Col>
               </Row>
+            </Grid>
+          </div>
+        </Dialog>
+
+        <Dialog
+          title="Patient In Ambulance"
+          actions={actionsButtonForUpcoming}
+          modal={false}
+          open={openInAmbDialoge}
+          onRequestClose={this.handleClose}
+          autoScrollBodyContent
+        >
+          <div>
+
+            <Grid>
+              <Row style={{ height: '50px', padding: '5px', marginTop: '20px' }}>
+                <Col md={3}>Name</Col>
+                <Col md={3}>Ajmal</Col>
+                <Col md={3}> Heartrate </Col>
+                <Col md={3} style={{ color: `${this.color}`, }}> <span style={{ fontSize: '30px' }}>104</span> bpm </Col>
+              </Row>
+
+              <Row style={{ height: '50px', padding: '5px', }}>
+                <Col md={3}>Age</Col>
+                <Col md={3}>10</Col>
+                <Col md={3}> Blood Pressure </Col>
+                <Col md={3} > <span style={{ fontSize: '30px' }}>120/75</span> </Col>
+              </Row>
+
+              <Row style={{ height: '50px', padding: '5px', }}>
+                <Col md={3}>Location</Col>
+                <Col md={3}>Shah Faisal</Col>
+                <Col md={3}> Temprature </Col>
+                <Col md={3} > <span style={{ fontSize: '30px' }}>101</span> </Col>
+              </Row>
+
+              <Row style={{ height: '50px', padding: '5px' }}>
+                <Col md={3}>Disease</Col>
+                <Col md={3}>Kidney</Col>
+                <Col md={3}> Cholestrol </Col>
+                <Col md={3} > <span style={{ fontSize: '30px' }}>185</span> mg/dl </Col>
+              </Row>
+
+
+              <Row style={{ padding: '5px' }}>
+                <Col md={3}>ETA</Col>
+                <Col md={3}>20min</Col>
+                <Col md={3}>blood sugar  </Col>
+                <Col md={3} > <span style={{ fontSize: '30px' }}>85</span> mg/dl</Col>
+              </Row>
+
             </Grid>
           </div>
         </Dialog>

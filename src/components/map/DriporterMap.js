@@ -154,6 +154,10 @@ const DriporterMap = compose(
                 if (data.info.status === 'available') {
                   props.showPatients();
                 }
+                if (data.info.status === 'job') {
+                  props.showPatientInAmbulance();
+                }
+                
               }} style={{ backgroundColor: '#C0ECAE', opacity: 0.75, padding: '12px' }}>
                 <div style={{ fontSize: '16px', fontColor: '#08233B' }}>
                   {data.info.number} <br />

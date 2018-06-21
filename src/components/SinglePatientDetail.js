@@ -42,7 +42,7 @@ export default class BookingEditForm extends React.Component {
     const { incomingPatient } = this.state;
     return (
       <form className="form-validation">
-        {/* <h2 style={GlobalStyle.formHeadingsh1}>Patient Details: <span style={{ color: '#27BCBD' }}>{incomingPatient.name}</span></h2> */}
+        {/* <h2 style={GlobalStyle.formHeadingsh1}>Patient Details: <span style={{ color: '#0D5BD5' }}>{incomingPatient.name}</span></h2> */}
 
         <span style={{ color: '#29ABE2', fontSize: '15px' }}>Data Receiving from Ambulance...</span>
         <LinearProgress mode="indeterminate" />

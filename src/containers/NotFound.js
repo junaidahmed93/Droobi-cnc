@@ -5,7 +5,7 @@ class NotFoundContainer extends Component {
     return (
       <div>
         <div style={{
- height: '50px', width: '300px', margin: '10vh auto', color: '#27BCBD',
+ height: '50px', width: '300px', margin: '10vh auto', color: '#0D5BD5',
 }}
         >
           <h1>Ops! Page not found</h1>

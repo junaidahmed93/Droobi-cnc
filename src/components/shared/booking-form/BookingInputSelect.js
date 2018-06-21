@@ -8,7 +8,7 @@ const styles = {
     color: '#555',
   },
   labelStyleFilled: {
-    color: '#27BCBD',
+    color: '#0D5BD5',
   },
 };
 

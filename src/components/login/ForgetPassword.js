@@ -5,7 +5,7 @@ import Validations from '../../utils/Validations';
 
 const styles = {
   floatingStyle: {
-    color: '#27BCBD',
+    color: '#0D5BD5',
     fontSize: '18px',
     width: '90%',
   },
@@ -153,7 +153,7 @@ class ForgetPassword extends Component {
                 label={this.state.code ? 'Verify' : 'Send'}
                 onClick={this.sendCode}
                 style={styles.loginButton}
-                backgroundColor="#27BCBD"
+                backgroundColor="#0D5BD5"
                 labelColor="white"
               />
               <br /> <br />
@@ -161,7 +161,7 @@ class ForgetPassword extends Component {
                 label="Cancel"
                 onClick={this.props.disableForgetDialog}
                 style={styles.loginButton}
-                backgroundColor="#27BCBD"
+                backgroundColor="#0D5BD5"
                 labelColor="white"
               />
             </div>

@@ -54,7 +54,7 @@ class BookingCharts extends Component {
  top: -50, right: 0, left: -20, bottom: 5,
 }}
           >
-            <Pie isAnimationActive={false} data={data001} cx={200} cy={200} outerRadius={80} fill="#27BCBD" label />
+            <Pie isAnimationActive={false} data={data001} cx={200} cy={200} outerRadius={80} fill="#0D5BD5" label />
             {/* <Pie data={data002} cx={500} cy={200} innerRadius={40} outerRadius={80} fill="#82ca9d" /> */}
             <Tooltip />
           </PieChart>

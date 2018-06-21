@@ -33,7 +33,7 @@ const GlobalStyle = {
   },
 
   paginationButtons: {
-    color: '#27BCBD',
+    color: '#0D5BD5',
     width: '35px',
     height: '35px',
     paddingTop: '5px',

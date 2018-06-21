@@ -6,7 +6,7 @@
     <defs></defs>
     <g id="Dashboard---Configure" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-20.000000, -275.000000)">
         <g id="ic_driporterActive" transform="translate(20.000000, 275.000000)">
-            <circle id="Oval-2" fill="#27BCBD" cx="20" cy="20" r="20"></circle>
+            <circle id="Oval-2" fill="#0D5BD5" cx="20" cy="20" r="20"></circle>
             <g id="ic_captain" transform="translate(10.000000, 10.000000)" fill="#FFFFFF" fill-rule="nonzero">
                 <g id="Group">
                     <path d="M14,4.66666667 L14,4.2 C13.9093333,4.14466667 13.8053333,4.09266667 13.678,4.04666667 C13.6186667,4.02466667 13.544,4.00666667 13.476,3.98666667 C12.762,3.77666667 11.612,3.66733333 10,3.66733333 C8.38733333,3.66733333 7.23733333,3.77733333 6.524,3.98666667 C6.456,4.00666667 6.38133333,4.02466667 6.322,4.04666667 C6.19466667,4.09333333 6.08933333,4.14466667 6,4.2 L6,4.66666667 L14,4.66666667 Z" id="Shape"></path>

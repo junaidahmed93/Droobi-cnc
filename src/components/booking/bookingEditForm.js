@@ -19,7 +19,7 @@ export default class BookingEditForm extends React.Component {
     const { booking, setValue, editMode } = this.props;
     return (
       <form className="form-validation">
-        <h2 style={GlobalStyle.formHeadingsh1}>Booking Details: <span style={{ color: '#27BCBD' }}>{booking.referenceId}</span></h2>
+        <h2 style={GlobalStyle.formHeadingsh1}>Booking Details: <span style={{ color: '#0D5BD5' }}>{booking.referenceId}</span></h2>
         <h4 className="paper-title"> Status: <span className="Hotel-booking-status">{statusMapping(booking.status)}</span>  </h4>
         <Divider className="paper-divider" />
         <Grid fluid>

@@ -8,7 +8,7 @@ const styles = {
     color: '#555',
   },
   labelStyleFilled: {
-    color: '#27BCBD',
+    color: '#0D5BD5',
   },
 };
 export default class InputFutureDate extends React.Component {
@@ -74,8 +74,8 @@ export default class InputFutureDate extends React.Component {
         errorText={this.state.errorText}
         htmlFor={this.props.id}
         floatingLabelText={this.props.label}
-        floatingLabelStyle={{ color: '#27BCBD' }}
-        floatingLabelFocusStyle={{ color: '#27BCBD' }}
+        floatingLabelStyle={{ color: '#0D5BD5' }}
+        floatingLabelFocusStyle={{ color: '#0D5BD5' }}
         floatingLabelFixed={this.props.fixedFloat}
         underlineDisabledStyle={{ cursor: 'pointer', color: 'red', borderBottom: '1px solid #D3D3D3' }}
         inputStyle={this.props.disabled ? { cursor: 'default' } : { cursor: 'inherit' }}

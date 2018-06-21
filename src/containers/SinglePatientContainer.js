@@ -165,7 +165,7 @@ class PatientContainer extends React.Component {
           <Grid fluid>
             <Row>
               <Col md={5}>
-                <h2 style={GlobalStyle.formHeadingsh1}>Patient Details: <span style={{ color: '#27BCBD' }} /></h2>
+                <h2 style={GlobalStyle.formHeadingsh1}>Patient Details: <span style={{ color: '#0D5BD5' }} /></h2>
               </Col>
               <Col md={7}>
                 {/* <Link to="">

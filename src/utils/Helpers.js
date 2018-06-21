@@ -78,14 +78,14 @@ export function onInputBlur(id, value) {
   }
   if (isStringContainSpaces(value) || _.isEmpty(value)) {
     if (checkAllOptionalInput(id)) {
-      return { error: '', color: '#27BCBD' };
+      return { error: '', color: '#0D5BD5' };
     }
 
     return { error: 'This field is required.', color: '#f44336' };
   }
   const validationResult = Validations.basicValidations(id, value);
   if (validationResult && validationResult.valid) {
-    return { error: '', color: '#27BCBD' };
+    return { error: '', color: '#0D5BD5' };
   }
 
   return { error: validationResult && validationResult.message ? validationResult.message : 'ERROR', color: '#f44336' };
@@ -97,12 +97,12 @@ export function onInputChange(id, value) {
   }
   if (isStringContainSpaces(value) || _.isEmpty(value)) {
     if (checkAllOptionalInput(id)) { // Run time checking
-      return { error: '', color: '#27BCBD' };
+      return { error: '', color: '#0D5BD5' };
     }
 
     return { error: 'This field is required.', color: '#f44336' };
   }
-  return { error: '', color: '#27BCBD' };
+  return { error: '', color: '#0D5BD5' };
 }
 
 export function getCountries() {

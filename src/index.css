@@ -99,8 +99,8 @@ body {
   height: 36px;
   width: 36px;
   border-radius: 50px;
-  border: 1px solid #27BCBD;
-  background-color: #27BCBD;
+  border: 1px solid #0D5BD5;
+  background-color: #0D5BD5;
 }
 
 .leftTitle {
@@ -122,14 +122,14 @@ body {
 }
 
 .ui.secondary.pointing.menu .active.item {
-  border-color: #27BCBD !important;
-  color: #27BCBD !important;
+  border-color: #0D5BD5 !important;
+  color: #0D5BD5 !important;
 }
 
 .logoutButton {
   background-color: #ffffff !important;
-  border: 1px solid #27BCBD !important;
-  color: #27BCBD !important;
+  border: 1px solid #0D5BD5 !important;
+  color: #0D5BD5 !important;
   font-size: 14px !important;
   height: 35px;
   padding-top: 10px !important;
@@ -547,12 +547,12 @@ body {
 }
 
 .filter {
-  border: 1px solid #27BCBD !important;
+  border: 1px solid #0D5BD5 !important;
   border-radius: 4px;
 }
 
 tr:hover td {
-  color: #27BCBD;
+  color: #0D5BD5;
   cursor: pointer;
 }
 
@@ -562,7 +562,7 @@ tr:hover td {
 }
 
 tr:hover td.sideStyle {
-  background-color: #27BCBD !important;
+  background-color: #0D5BD5 !important;
 }
 
 .pagination {
@@ -570,7 +570,7 @@ tr:hover td.sideStyle {
   justify-content: flex-end;
   margin-top: 20px;
   align-items: center;
-  height: 40px;	width: 40px;	border: 1px solid #27BCBD;	border-radius: 4px;
+  height: 40px;	width: 40px;	border: 1px solid #0D5BD5;	border-radius: 4px;
 }
 
 .mainContainer{
@@ -663,7 +663,7 @@ tr:hover td.sideStyle {
     top: 0;
     background-color: #fff;
     z-index: 1;
-    border: 2px solid #27BCBD;
+    border: 2px solid #0D5BD5;
     margin: 1rem 0;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -697,7 +697,7 @@ tr:hover td.sideStyle {
     width: 20px !important;
     height: 20px !important;
     cursor: pointer;
-    color: #27BCBD !important;
+    color: #0D5BD5 !important;
 }
 .form-validation .file-grid.horizontal+.preview .pencil{
     top: 8%;
@@ -710,7 +710,7 @@ tr:hover td.sideStyle {
 .form-validation .file-grid.vertical+.preview .pencil-bar{
     display: block;
     width: 100%;
-    background-color: #27BCBD;
+    background-color: #0D5BD5;
     padding: 1rem;
     text-align: center;
     position: absolute;
@@ -743,13 +743,13 @@ tr:hover td.sideStyle {
     margin: 0.5rem auto;
 }
 .blue-color{
-    color: #27BCBD !important;
+    color: #0D5BD5 !important;
 }
 .add-button{
     text-decoration: none !important;
     text-transform: capitalize !important;
-    background-color: #27BCBD !important;
-    border: 1px solid #27BCBD !important;
+    background-color: #0D5BD5 !important;
+    border: 1px solid #0D5BD5 !important;
     -webkit-border-radius: 4px !important;
     -moz-border-radius: 4px !important;
     border-radius: 4px !important;
@@ -801,8 +801,8 @@ tr:hover td.sideStyle {
 .add-button-on-header{
   text-decoration: none !important;
   /* text-transform: capitalize !important; */
-  background-color: #27BCBD !important;
-  border: 1px solid #27BCBD !important;
+  background-color: #0D5BD5 !important;
+  border: 1px solid #0D5BD5 !important;
   -webkit-border-radius: 4px !important;
   -moz-border-radius: 4px !important;
   border-radius: 4px !important;
@@ -839,11 +839,11 @@ tr:hover td.sideStyle {
     height: 30px !important;
 }
 .vehicle-table th{
-    color:#27BCBD !important;
+    color:#0D5BD5 !important;
     font-weight: bold !important;
 }
 .vehicle-table tr:hover td{
-    color:#27BCBD !important;
+    color:#0D5BD5 !important;
 }
 .vehicle-table tbody tr{
     position: relative;
@@ -852,14 +852,14 @@ tr:hover td.sideStyle {
     width: 24px;
     height: 24px !important;
     min-width: 24px !important;
-    border: 1px solid #27BCBD !important;
+    border: 1px solid #0D5BD5 !important;
     border-radius: 4px !important;
     position: absolute !important;
     right: 10%;
     top: 20%;
 }
 .vehicle-table .action-button.blue{
-    background-color: #27BCBD !important;
+    background-color: #0D5BD5 !important;
 }
 .vehicle-table .action-button.pink{
     border-color: #fb7676 !important;
@@ -900,7 +900,7 @@ tr:hover td.sideStyle {
     width: 40px;
     height: 40px !important;
     min-Width: 40px !important;
-    border: 1px solid #27BCBD !important;
+    border: 1px solid #0D5BD5 !important;
     /* position: relative !important; */
     /* float: right; */
     display: inline-block;
@@ -954,7 +954,7 @@ tr.style-row td.action-cell{
     width: 100% !important;
 }
 .vehicle-form-group label.filled{
-    color: #27BCBD !important;
+    color: #0D5BD5 !important;
 }
 .vehicle-form-group-columns:first-child{
     margin-top: 0.5rem;
@@ -1054,7 +1054,7 @@ tr.style-row td.action-cell{
 .timeline-circle{
   width: 50px;
   height: 50px;
-  border: 2px solid #27BCBD;
+  border: 2px solid #0D5BD5;
   border-radius: 50px;
   
 }
@@ -1063,7 +1063,7 @@ tr.style-row td.action-cell{
   height: 50px;
   border: 2px solid #06acf3;
   border-radius: 50px;
-  background-color: #27BCBD;
+  background-color: #0D5BD5;
 }
 
 .flex-container-timeline > div.even {
@@ -1074,7 +1074,7 @@ tr.style-row td.action-cell{
 
 .flex-container-timeline > div.even > hr {
   height: 1px;
-  background-color: #27BCBD;
+  background-color: #0D5BD5;
   width: 150px;
   margin-left: -50px;
   
@@ -1096,7 +1096,7 @@ tr.style-row td.action-cell{
 }
 
 .Hotel-booking-status{
-  color: #27BCBD;
+  color: #0D5BD5;
 }
 
 /* .mat-focused{ color:red!important;} */
@@ -1110,7 +1110,7 @@ tr.style-row td.action-cell{
 }
 
 .table-header-style > th{
-  color: #27BCBD !important;
+  color: #0D5BD5 !important;
   font-size: 16px !important;
 }
 
@@ -1131,10 +1131,10 @@ tr.style-row td.action-cell{
 
 
 .table-row-style:hover{
-  border-left: 4px solid #27BCBD;
+  border-left: 4px solid #0D5BD5;
 }
 .pagination-left-button, .pagination-right-button, .search-top-button{
-  height: 40px;	width: 40px;	border: 1px solid #27BCBD;	border-radius: 4px;
+  height: 40px;	width: 40px;	border: 1px solid #0D5BD5;	border-radius: 4px;
 }
 .pagination-left-button {
   margin-right: 15px;
@@ -1160,7 +1160,7 @@ input[type=time]::-webkit-outer-spin-button {
 }
 
 .SelectField label{
-  color: #27BCBD !important;
+  color: #0D5BD5 !important;
 }
 
 table tr td {
@@ -1187,7 +1187,7 @@ table tr td {
   height: 40px;
   margin-left: -87px;
   margin-top: 4px;
-  color: #27BCBD;
+  color: #0D5BD5;
 }
 
 .tooltiptext{
